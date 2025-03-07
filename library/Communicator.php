@@ -29,7 +29,7 @@ class Communicator {
      * Communicator constructor.
      * @param Configuration|null $config
      */
-    public function __construct(Configuration $config = null)
+    public function __construct(?Configuration $config = null)
     {
 
         if (is_null($config)) {
